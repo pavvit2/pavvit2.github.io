@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway'); /*подключеие шрифтов с гугла*/ 
+
+body {
+	background-color:#f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	
+	-webkit-font-smoothing: antialiased; /*чтобы шрифт был четким при увеличении*/
+	-webkit-overflow-scrolling: touch;
+	
+	margin-top:70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+    font-weight: 300;
+    color: #333;	
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centred {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration:none;
+	outline: 0;
+}
+
+hr {
+	display:block;
+	height: 1px;
+	border:0px;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding:0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing:1px;
+}
+
+#headerwrap {
+	background: url("../img/header.jpg") no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative; /*как фон прилегает к блоку*/
+	background-position: center center;
+	min-height: 500px;
+	width: 100%; /*на весь размер экрана*/
+	
+	background-size: 100%;
+	
+	-webkit-background-size: cover; /*чтобы изображение норм выглядело на всех экранах Safari*/
+	-moz-background-size: cover; /*В мозилле*/
+	-o-background-size: cover; /*В опере*/
+	background-size: cover; /*Для остальных*/
+}
+
+#headerwrap h1 {
+	margin-top:100px; /*Чтобы был далеко от верха*/
+	font-size: 70px;
+	font-weight: 300; /*Устанавливает жирность (насыщенность) шрифта.*/
+	letter-spacing: 3px; /*Интервал между символами*/
+}
+
+#headerwrap h2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size: 25px;
+}
+
+#dg {
+	background: #e0e0e0;
+	padding-top:70px;
+	padding-bottom:70px;
+	text-align:center;
+}
+
+#dg h4 {
+	font-size:40px;
+}
+
+.titl {
+	filter:drop-shadow(10px 10px 5px rgba(0,0,0,0.7));
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.titl:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.wb {
+	padding-top: 40px;
+	margin-bottom: 0;
+}
+
+.wb h4 {
+	font-size:35px;
+}
+
+#lg {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align:center;
+}
+
+#lg h4 {
+	font-size:45px;
+	padding-bottom:40px;
+}
+
+#lg img {
+	margin-bottom:40px;
+}
+
+#r {
+	background: #ff7878;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#r h4 {
+	color: white;
+	font-size: 45px;
+}
+
+#r p {
+	color: white;
+}
+
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom:-140px;
+}
+
+#f i {
+	color:#bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #ff7878;
+}
